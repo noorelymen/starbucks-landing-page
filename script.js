@@ -2,7 +2,12 @@ function imgSlider(anything) {
   document.querySelector(".starbucks").src = anything;
 }
 
-function changeCircleColor(color) {
+function changeColor(bgColor, color) {
   const circle = document.querySelector(".circle");
-  circle.style.background = color;
+  const btn = document.querySelector(".btn");
+  const span = document.querySelector("span");
+
+  circle.style.background = bgColor;
+  btn.style.background = color;
+  span.style.color = color;
 }

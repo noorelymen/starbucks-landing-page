@@ -11,7 +11,7 @@ section {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    padding: 100px;
+    padding: 100px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +23,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 20px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,13 +67,14 @@ header ul li a {
 .content .text-box h2 {
     color: #333;
     font-size: 4em;
-    line-height: 1.4em;
+    line-height: 1em;
     font-weight: 600;
 }
 
 .content .text-box h2 span {
-    color: #01713d;
-    line-height: 1.2em;
+    color: #50743c;
+    font-size: 1.2em;
+    line-height: 1em;
     font-weight: 900;
 }
 
@@ -81,7 +82,7 @@ header ul li a {
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
-    background: #01713d;
+    background: #50743c;
     color: #fff;
     border-radius: 40px;
     font-weight: 500;
@@ -151,5 +152,10 @@ header ul li a {
     width: 100%;
     height: 100%;
     background: #ddd9cf;
-    clip-path: circle(600px at right 800px);
+    clip-path: circle(800px at right 100px);
+}
+
+.img {
+    -webkit-filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
 }
